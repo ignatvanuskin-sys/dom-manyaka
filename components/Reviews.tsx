@@ -1,6 +1,7 @@
 import { Quote, Star } from "lucide-react";
 import { company, rating, reviews } from "@/lib/content";
 import Cta from "@/components/ui/Cta";
+import CountUp from "@/components/ui/CountUp";
 import Reveal from "@/components/ui/Reveal";
 import SectionHead from "@/components/ui/SectionHead";
 
@@ -44,9 +45,11 @@ export default function Reviews() {
               <Reveal>
                 <div className="border border-bone/14 bg-coal/60 p-7 md:p-8">
                   <div className="flex items-end gap-3">
-                    <span className="display text-[4.6rem] leading-none text-bone">
-                      {rating.value}
-                    </span>
+                    <CountUp
+                      value={Number(rating.value)}
+                      decimals={1}
+                      className="display text-[4.6rem] leading-none text-bone"
+                    />
                     <span className="display pb-2 text-2xl text-dust">/ {rating.outOf}</span>
                   </div>
 
@@ -66,11 +69,15 @@ export default function Reviews() {
                   <dl className="mt-7 space-y-3 border-t border-bone/12 pt-6">
                     <div className="flex items-center justify-between gap-4">
                       <dt className="eyebrow text-[0.58rem] text-dust">оценок</dt>
-                      <dd className="text-sm text-bone">{rating.ratings}</dd>
+                       <dd className="text-sm text-bone">
+                         <CountUp value={rating.ratings} />
+                       </dd>
                     </div>
                     <div className="flex items-center justify-between gap-4">
                       <dt className="eyebrow text-[0.58rem] text-dust">отзывов</dt>
-                      <dd className="text-sm text-bone">{rating.reviews}</dd>
+                       <dd className="text-sm text-bone">
+                         <CountUp value={rating.reviews} />
+                       </dd>
                     </div>
                     <div className="flex items-center justify-between gap-4">
                       <dt className="eyebrow text-[0.58rem] text-dust">источник</dt>

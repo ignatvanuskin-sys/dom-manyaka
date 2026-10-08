@@ -32,7 +32,9 @@ const business = {
   url: SITE_URL,
   image: `${SITE_URL}/og.jpg`,
   telephone: "+77018229284",
-  priceRange: `от ${prices.rows[0].total.toLocaleString("ru-RU")} ₸ за команду`,
+  priceRange: `от ${prices.rows[0].total.toLocaleString("ru-RU")} до ${prices.rows[
+    prices.rows.length - 1
+  ].total.toLocaleString("ru-RU")} ₸ за команду`,
   currenciesAccepted: "KZT",
   paymentAccepted: company.payments.join(", "),
   address: {
@@ -56,6 +58,24 @@ const business = {
     ratingCount: rating.ratings,
     reviewCount: rating.reviews,
   },
+  publicAccess: true,
+  isAccessibleForFree: false,
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday",
+      ],
+      opens: company.hoursFrom,
+      closes: company.hoursTo,
+    },
+  ],
   review: [
     {
       "@type": "Review",

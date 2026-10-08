@@ -77,6 +77,16 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-image-preview": "large" },
   },
   category: "entertainment",
+  manifest: "/manifest.webmanifest",
+  appleWebApp: {
+    capable: true,
+    title: "Дом Маньяка",
+    statusBarStyle: "black-translucent",
+  },
+  icons: {
+    // Фавиконка отдаётся из app/icon.svg, здесь только иконка для iOS.
+    apple: [{ url: "/icons/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
+  },
   other: {
     "geo.position": `${company.geo.lat};${company.geo.lon}`,
     "geo.placename": "Алматы",
@@ -85,7 +95,8 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#070609",
+  // Совпадает с фоном сайта: адресная строка телефона сливается с тёмной темой.
+  themeColor: "#040305",
   colorScheme: "dark",
   width: "device-width",
   initialScale: 1,

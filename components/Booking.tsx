@@ -6,6 +6,7 @@ import { company, prices } from "@/lib/content";
 import Reveal from "@/components/ui/Reveal";
 import SectionHead from "@/components/ui/SectionHead";
 import Cta from "@/components/ui/Cta";
+import CopyRequest from "@/components/ui/CopyRequest";
 import { cn } from "@/lib/cn";
 
 const fmt = (n: number) => n.toLocaleString("ru-RU").replace(/\u00a0/g, " ");
@@ -253,7 +254,11 @@ export default function Booking() {
                 <ArrowUpRight className="relative z-10 size-4" aria-hidden />
               </button>
 
-              <p className="stamp mt-4 leading-relaxed">
+              <div className="mt-3">
+                <CopyRequest text={message} />
+              </div>
+
+              <p className="stamp mt-3 leading-relaxed">
                 Откроется WhatsApp с готовым сообщением — отправляете его вы. Слот считается
                 подтверждённым только после ответа администратора. Данные никуда не сохраняются на
                 сайте.
