@@ -9,7 +9,7 @@ import {
   useTransform,
   type MotionValue,
 } from "motion/react";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState, type TouchEvent as ReactTouchEvent } from "react";
 import { ArrowLeft, ArrowRight, X, ZoomIn } from "lucide-react";
 import { media, type MediaKey } from "@/lib/media";
 import Reveal from "@/components/ui/Reveal";
@@ -69,6 +69,23 @@ export default function Gallery() {
   });
 
   const close = useCallback(() => setOpen(null), []);
+
+  /* Свайп — главный жест в лайтбоксе на телефоне: кнопки со стрелками
+     там мелкие и живут в самом низу экрана. */
+  const touchStart = useRef<{ x: number; y: number } | null>(null);
+  const onTouchStart = (e: ReactTouchEvent) => {
+    const t = e.touches[0];
+    touchStart.current = { x: t.clientX, y: t.clientY };
+  };
+  const onTouchEnd = (e: ReactTouchEvent) => {
+    const s = touchStart.current;
+    if (!s) return;
+    const t = e.changedTouches[0];
+    const dx = t.clientX - s.x;
+    const dy = t.clientY - s.y;
+    touchStart.current = null;
+    if (Math.abs(dx) > 48 && Math.abs(dx) > Math.abs(dy) * 1.4) step(dx < 0 ? 1 : -1);
+  };
   const step = useCallback(
     (dir: number) =>
       setOpen((cur) => (cur === null ? cur : (cur + dir + cells.length) % cells.length)),
@@ -206,7 +223,12 @@ export default function Gallery() {
               </button>
             </div>
 
-            <div className="relative flex-1">
+            <div
+              className="relative flex-1"
+              style={{ touchAction: "pan-y" }}
+              onTouchStart={onTouchStart}
+              onTouchEnd={onTouchEnd}
+            >
               <Image
                 src={currentMedia.src}
                 alt={currentMedia.alt}
@@ -218,7 +240,10 @@ export default function Gallery() {
             </div>
 
             <div className="flex items-center justify-between gap-4 border-t border-bone/10 px-5 py-4 md:px-8">
-              <p className="stamp max-w-[60ch] leading-relaxed">{currentMedia.credit}</p>
+              <div className="min-w-0">
+                <p className="stamp max-w-[60ch] leading-relaxed">{currentMedia.credit}</p>
+                <p className="stamp mt-1 !text-blood md:hidden">свайп влево / вправо</p>
+              </div>
               <div className="flex shrink-0 gap-2">
                 <button
                   type="button"

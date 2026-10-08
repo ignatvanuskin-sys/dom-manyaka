@@ -33,7 +33,7 @@ export default function Footer() {
             ))}
             <a
               href={company.phoneHref}
-              className="text-sm text-bone/75 transition-colors hover:text-ember"
+              className="flex min-h-11 items-center text-sm text-bone/75 transition-colors hover:text-ember"
             >
               {company.phoneDisplay}
             </a>

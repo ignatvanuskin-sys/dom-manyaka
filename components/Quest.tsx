@@ -94,19 +94,23 @@ export default function Quest() {
               </p>
             </Reveal>
 
+            {/* dt/dd обязаны быть прямыми детьми div внутри dl —
+                иначе axe справедливо ругается на структуру списка. */}
             <dl className="mt-9 border-t border-bone/12">
               {specs.map((s, i) => (
-                <Reveal key={s.label} delay={0.05 * i}>
-                  <div className="flex items-center justify-between gap-4 border-b border-bone/12 py-4">
-                    <dt className="flex items-center gap-3">
+                <Reveal
+                  key={s.label}
+                  delay={0.05 * i}
+                  className="flex items-center justify-between gap-4 border-b border-bone/12 py-4"
+                >
+                  <dt className="flex items-center gap-3">
                       <s.icon className="size-3.5 text-blood" aria-hidden />
                       <span className="eyebrow text-[0.6rem] text-dust">{s.label}</span>
                     </dt>
                     <dd className="text-right">
                       <span className="block text-sm font-medium text-bone">{s.value}</span>
                       <span className="stamp block !text-[0.55rem]">{s.source}</span>
-                    </dd>
-                  </div>
+                  </dd>
                 </Reveal>
               ))}
             </dl>

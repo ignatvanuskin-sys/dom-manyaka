@@ -1,6 +1,6 @@
 "use client";
 
-import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { motion, useReducedMotion } from "motion/react";
 import { useState } from "react";
 import { Plus } from "lucide-react";
 import { company, faq } from "@/lib/content";
@@ -36,10 +36,15 @@ export default function Faq() {
             <dl className="border-t border-bone/14">
               {faq.map((item, i) => {
                 const isOpen = open === i;
+                // dt/dd — прямые дети div внутри dl: так требует спецификация,
+                // иначе axe валит структуру списка определений.
                 return (
-                  <Reveal key={item.q} delay={Math.min(i, 4) * 0.03}>
-                    <div className="border-b border-bone/14">
-                      <dt>
+                  <Reveal
+                    key={item.q}
+                    delay={Math.min(i, 4) * 0.03}
+                    className="border-b border-bone/14"
+                  >
+                    <dt>
                         <button
                           type="button"
                           onClick={() => setOpen(isOpen ? null : i)}
@@ -78,28 +83,24 @@ export default function Faq() {
                         </button>
                       </dt>
 
-                      <AnimatePresence initial={false}>
-                        {isOpen && (
-                          <motion.dd
-                            id={`faq-panel-${i}`}
-                            role="region"
-                            aria-labelledby={`faq-btn-${i}`}
-                            initial={reduce ? { opacity: 0 } : { height: 0, opacity: 0 }}
-                            animate={reduce ? { opacity: 1 } : { height: "auto", opacity: 1 }}
-                            exit={reduce ? { opacity: 0 } : { height: 0, opacity: 0 }}
-                            transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-                            className="overflow-hidden"
-                          >
-                            <div className="pb-7 pl-0 md:pl-[3.4rem]">
-                              <p className="max-w-[68ch] text-[0.95rem] leading-relaxed text-bone/70">
-                                {item.a}
-                              </p>
-                              <p className="stamp mt-4">источник: {item.source}</p>
-                            </div>
-                          </motion.dd>
-                        )}
-                      </AnimatePresence>
-                    </div>
+                      {/* Панель всегда в DOM: тогда aria-controls на кнопке
+                          указывает на существующий элемент. Свёрнутая скрыта
+                          от скринридера и не участвует в обходе. */}
+                      <motion.dd
+                        id={`faq-panel-${i}`}
+                        initial={false}
+                        animate={{ height: isOpen ? "auto" : 0, opacity: isOpen ? 1 : 0 }}
+                        transition={{ duration: reduce ? 0 : 0.5, ease: [0.16, 1, 0.3, 1] }}
+                        className="overflow-hidden"
+                        aria-hidden={!isOpen}
+                      >
+                        <div className="pb-7 pl-0 md:pl-[3.4rem]">
+                          <p className="max-w-[68ch] text-[0.95rem] leading-relaxed text-bone/70">
+                            {item.a}
+                          </p>
+                          <p className="stamp mt-4">источник: {item.source}</p>
+                        </div>
+                      </motion.dd>
                   </Reveal>
                 );
               })}

@@ -1,0 +1,724 @@
+{
+  "report": [
+    {
+      "device": "320-small",
+      "docScrollWidth": 320,
+      "clientWidth": 320,
+      "overflowEls": [],
+      "smallCount": 14,
+      "smallSample": [
+        {
+          "t": "button",
+          "txt": "Открыть меню",
+          "w": 39,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "2",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "3",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "4",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "5",
+          "w": 34,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "6",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "7",
+          "w": 34,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "8",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "9",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "10",
+          "w": 41,
+          "h": 44
+        },
+        {
+          "t": "a",
+          "txt": "+7 701 822 92 84",
+          "w": 116,
+          "h": 20
+        },
+        {
+          "t": "a",
+          "txt": "WhatsApp",
+          "w": 69,
+          "h": 20
+        },
+        {
+          "t": "a",
+          "txt": "@dom_manyaka",
+          "w": 109,
+          "h": 20
+        },
+        {
+          "t": "a",
+          "txt": "2ГИС",
+          "w": 37,
+          "h": 44
+        }
+      ],
+      "nodes": 1343,
+      "animatedNodes": 55,
+      "pageHeight": 25400,
+      "heroH": 772,
+      "stickyVisible": true,
+      "imgCount": 21,
+      "imgKb": 78,
+      "heavy": [],
+      "errors": []
+    },
+    {
+      "device": "360-android",
+      "docScrollWidth": 360,
+      "clientWidth": 360,
+      "overflowEls": [],
+      "smallCount": 13,
+      "smallSample": [
+        {
+          "t": "button",
+          "txt": "2",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "3",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "4",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "5",
+          "w": 34,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "6",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "7",
+          "w": 34,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "8",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "9",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "10",
+          "w": 41,
+          "h": 44
+        },
+        {
+          "t": "a",
+          "txt": "+7 701 822 92 84",
+          "w": 116,
+          "h": 20
+        },
+        {
+          "t": "a",
+          "txt": "WhatsApp",
+          "w": 69,
+          "h": 20
+        },
+        {
+          "t": "a",
+          "txt": "@dom_manyaka",
+          "w": 109,
+          "h": 20
+        },
+        {
+          "t": "a",
+          "txt": "2ГИС",
+          "w": 37,
+          "h": 44
+        }
+      ],
+      "nodes": 1343,
+      "animatedNodes": 55,
+      "pageHeight": 25376,
+      "heroH": 785,
+      "stickyVisible": true,
+      "imgCount": 21,
+      "imgKb": 132,
+      "heavy": [],
+      "errors": []
+    },
+    {
+      "device": "375-iphoneSE",
+      "docScrollWidth": 375,
+      "clientWidth": 375,
+      "overflowEls": [],
+      "smallCount": 13,
+      "smallSample": [
+        {
+          "t": "button",
+          "txt": "2",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "3",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "4",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "5",
+          "w": 34,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "6",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "7",
+          "w": 34,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "8",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "9",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "10",
+          "w": 41,
+          "h": 44
+        },
+        {
+          "t": "a",
+          "txt": "+7 701 822 92 84",
+          "w": 116,
+          "h": 20
+        },
+        {
+          "t": "a",
+          "txt": "WhatsApp",
+          "w": 69,
+          "h": 20
+        },
+        {
+          "t": "a",
+          "txt": "@dom_manyaka",
+          "w": 109,
+          "h": 20
+        },
+        {
+          "t": "a",
+          "txt": "2ГИС",
+          "w": 37,
+          "h": 44
+        }
+      ],
+      "nodes": 1343,
+      "animatedNodes": 55,
+      "pageHeight": 24977,
+      "heroH": 789,
+      "stickyVisible": true,
+      "imgCount": 21,
+      "imgKb": 103,
+      "heavy": [],
+      "errors": []
+    },
+    {
+      "device": "390-iphone14",
+      "docScrollWidth": 390,
+      "clientWidth": 390,
+      "overflowEls": [],
+      "smallCount": 13,
+      "smallSample": [
+        {
+          "t": "button",
+          "txt": "2",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "3",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "4",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "5",
+          "w": 34,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "6",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "7",
+          "w": 34,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "8",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "9",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "10",
+          "w": 41,
+          "h": 44
+        },
+        {
+          "t": "a",
+          "txt": "+7 701 822 92 84",
+          "w": 116,
+          "h": 20
+        },
+        {
+          "t": "a",
+          "txt": "WhatsApp",
+          "w": 69,
+          "h": 20
+        },
+        {
+          "t": "a",
+          "txt": "@dom_manyaka",
+          "w": 109,
+          "h": 20
+        },
+        {
+          "t": "a",
+          "txt": "2ГИС",
+          "w": 37,
+          "h": 44
+        }
+      ],
+      "nodes": 1343,
+      "animatedNodes": 55,
+      "pageHeight": 25682,
+      "heroH": 844,
+      "stickyVisible": true,
+      "imgCount": 21,
+      "imgKb": 137,
+      "heavy": [],
+      "errors": []
+    },
+    {
+      "device": "412-pixel7",
+      "docScrollWidth": 412,
+      "clientWidth": 412,
+      "overflowEls": [],
+      "smallCount": 13,
+      "smallSample": [
+        {
+          "t": "button",
+          "txt": "2",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "3",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "4",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "5",
+          "w": 34,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "6",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "7",
+          "w": 34,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "8",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "9",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "10",
+          "w": 41,
+          "h": 44
+        },
+        {
+          "t": "a",
+          "txt": "+7 701 822 92 84",
+          "w": 116,
+          "h": 20
+        },
+        {
+          "t": "a",
+          "txt": "WhatsApp",
+          "w": 69,
+          "h": 20
+        },
+        {
+          "t": "a",
+          "txt": "@dom_manyaka",
+          "w": 109,
+          "h": 20
+        },
+        {
+          "t": "a",
+          "txt": "2ГИС",
+          "w": 37,
+          "h": 44
+        }
+      ],
+      "nodes": 1343,
+      "animatedNodes": 55,
+      "pageHeight": 25822,
+      "heroH": 915,
+      "stickyVisible": true,
+      "imgCount": 21,
+      "imgKb": 132,
+      "heavy": [],
+      "errors": []
+    },
+    {
+      "device": "430-iphonePro",
+      "docScrollWidth": 430,
+      "clientWidth": 430,
+      "overflowEls": [],
+      "smallCount": 13,
+      "smallSample": [
+        {
+          "t": "button",
+          "txt": "2",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "3",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "4",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "5",
+          "w": 34,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "6",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "7",
+          "w": 34,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "8",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "9",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "10",
+          "w": 41,
+          "h": 44
+        },
+        {
+          "t": "a",
+          "txt": "+7 701 822 92 84",
+          "w": 116,
+          "h": 20
+        },
+        {
+          "t": "a",
+          "txt": "WhatsApp",
+          "w": 69,
+          "h": 20
+        },
+        {
+          "t": "a",
+          "txt": "@dom_manyaka",
+          "w": 109,
+          "h": 20
+        },
+        {
+          "t": "a",
+          "txt": "2ГИС",
+          "w": 37,
+          "h": 44
+        }
+      ],
+      "nodes": 1343,
+      "animatedNodes": 55,
+      "pageHeight": 25866,
+      "heroH": 932,
+      "stickyVisible": true,
+      "imgCount": 21,
+      "imgKb": 152,
+      "heavy": [],
+      "errors": []
+    },
+    {
+      "device": "820-ipad",
+      "docScrollWidth": 820,
+      "clientWidth": 820,
+      "overflowEls": [],
+      "smallCount": 13,
+      "smallSample": [
+        {
+          "t": "button",
+          "txt": "2",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "3",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "4",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "5",
+          "w": 34,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "6",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "7",
+          "w": 34,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "8",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "9",
+          "w": 35,
+          "h": 44
+        },
+        {
+          "t": "button",
+          "txt": "10",
+          "w": 41,
+          "h": 44
+        },
+        {
+          "t": "a",
+          "txt": "+7 701 822 92 84",
+          "w": 116,
+          "h": 20
+        },
+        {
+          "t": "a",
+          "txt": "WhatsApp",
+          "w": 69,
+          "h": 20
+        },
+        {
+          "t": "a",
+          "txt": "@dom_manyaka",
+          "w": 109,
+          "h": 20
+        },
+        {
+          "t": "a",
+          "txt": "2ГИС",
+          "w": 37,
+          "h": 44
+        }
+      ],
+      "nodes": 1343,
+      "animatedNodes": 55,
+      "pageHeight": 24736,
+      "heroH": 1180,
+      "stickyVisible": true,
+      "imgCount": 20,
+      "imgKb": 162,
+      "heavy": [],
+      "errors": []
+    }
+  ],
+  "axe": {
+    "390-mobile": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "nodes": 2
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": 15
+        }
+      ]
+    },
+    "1440-desktop": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "nodes": 2
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": 30
+        }
+      ]
+    }
+  },
+  "instagramWebview": {
+    "heroHeight": 844,
+    "viewportHeight": 844,
+    "h1Visible": true,
+    "sectionsVisible": 10,
+    "backdropSupported": true,
+    "svhSupported": true,
+    "dvhSupported": true,
+    "errors": []
+  }
+}

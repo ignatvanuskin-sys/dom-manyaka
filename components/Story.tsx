@@ -134,7 +134,9 @@ export default function Story() {
 
   return (
     <section id="story" aria-label="История локации" className="relative bg-void">
-      <div ref={ref} className="relative h-[420svh]">
+      {/* На телефоне сценарий короче: длинная прокрутка там читается
+          как усталость, а не как погружение. Десктоп оставляем долгим. */}
+      <div ref={ref} className="relative h-[300svh] md:h-[420svh]">
         <div className="sticky top-0 h-[100svh] overflow-hidden">
           {frames.map((f, i) => (
             <Plate key={f} progress={scrollYProgress} i={i} total={frames.length} frame={f} />

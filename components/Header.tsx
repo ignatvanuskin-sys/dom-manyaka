@@ -92,8 +92,7 @@ export default function Header() {
           >
             <a
               href="#top"
-              className="group flex items-baseline gap-2.5 py-2.5"
-              aria-label="Дом Маньяка — в начало"
+              className="group flex min-h-11 items-center gap-2.5 py-2.5"
             >
               <span className="display text-[1.05rem] tracking-[0.06em] text-bone sm:text-xl">
                 Dom Manyaka
@@ -133,7 +132,7 @@ export default function Header() {
                 onClick={() => setOpen(true)}
                 aria-label="Открыть меню"
                 aria-expanded={open}
-                className="flex size-10 items-center justify-center border border-bone/20 text-bone transition-colors hover:border-bone/50 lg:hidden"
+                className="flex size-11 items-center justify-center border border-bone/20 text-bone transition-colors active:border-blood hover:border-bone/50 lg:hidden"
               >
                 <Menu className="size-4" aria-hidden />
               </button>
@@ -161,7 +160,7 @@ export default function Header() {
                   type="button"
                   onClick={() => setOpen(false)}
                   aria-label="Закрыть меню"
-                  className="flex size-10 items-center justify-center border border-bone/20 text-bone"
+                  className="flex size-11 items-center justify-center border border-bone/20 text-bone active:border-blood"
                 >
                   <X className="size-4" aria-hidden />
                 </button>

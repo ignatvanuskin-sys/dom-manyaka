@@ -38,7 +38,7 @@ export default function Atmosphere() {
         {DUST.map((d) => (
           <span
             key={d.id}
-            className="dust absolute rounded-full bg-bone"
+            className={`dust absolute rounded-full bg-bone${d.id % 2 === 1 ? " dust-alt" : ""}`}
             style={{
               left: d.left,
               top: d.top,

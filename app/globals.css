@@ -13,7 +13,10 @@
   --color-ash: #0f0e12;
   --color-iron: #16151a;
   --color-slag: #211f25;
-  --color-dust: #7a756c;
+  /* Поднято с #7a756c: axe показал, что на реальном фоне служебные подписи
+     не дотягивали до 4.5:1. Здесь ~6:1 — порог AA пройден с запасом,
+     но тон остался пыльным, а не «офисно-серым». */
+  --color-dust: #8e8880;
   --color-bone: #cec8be;
   --color-blood: #8d1a10;
   --color-rust: #a82e1a;
@@ -316,6 +319,30 @@ body {
 .cursor-none select,
 .cursor-none [contenteditable="true"] {
   cursor: auto !important;
+}
+
+/* ==========================================================================
+   Телефон: тот же вид, но дешевле для GPU.
+   Анимированное зерно и полный набор пылинок на слабом Android съедают
+   кадры, а разницы на маленьком экране всё равно не видно.
+   ========================================================================== */
+@media (max-width: 767px), (pointer: coarse) {
+  .grain::after {
+    animation: none;
+    opacity: 0.42;
+  }
+  .dust {
+    will-change: auto;
+  }
+  .dust-alt {
+    display: none;
+  }
+  .marquee-slow {
+    animation-duration: 92s;
+  }
+  .slow-zoom {
+    animation-duration: 34s;
+  }
 }
 
 /* ==========================================================================

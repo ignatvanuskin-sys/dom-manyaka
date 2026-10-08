@@ -201,7 +201,7 @@ export default function Booking() {
                     type="date"
                     value={date}
                     onChange={(e) => setDate(e.target.value)}
-                    className="w-full bg-transparent py-2.5 text-sm text-bone outline-none [color-scheme:dark]"
+                    className="h-11 min-h-11 w-full bg-transparent text-sm text-bone outline-none [color-scheme:dark]"
                   />
                 </Field>
                 <Field label="Время" htmlFor="bk-time">
@@ -210,7 +210,7 @@ export default function Booking() {
                     type="time"
                     value={time}
                     onChange={(e) => setTime(e.target.value)}
-                    className="w-full bg-transparent py-2.5 text-sm text-bone outline-none [color-scheme:dark]"
+                    className="h-11 min-h-11 w-full bg-transparent text-sm text-bone outline-none [color-scheme:dark]"
                   />
                 </Field>
                 <Field label="Имя" htmlFor="bk-name">
@@ -223,7 +223,7 @@ export default function Booking() {
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     placeholder="Как к вам обращаться"
-                    className="w-full bg-transparent py-2.5 text-sm text-bone outline-none placeholder:text-dust/60"
+                    className="h-11 min-h-11 w-full bg-transparent text-sm text-bone outline-none placeholder:text-dust/60"
                   />
                 </Field>
                 <Field label="Телефон" htmlFor="bk-phone" optional>
@@ -234,7 +234,7 @@ export default function Booking() {
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                     placeholder="+7 ___ ___ __ __"
-                    className="w-full bg-transparent py-2.5 text-sm text-bone outline-none placeholder:text-dust/60"
+                    className="h-11 min-h-11 w-full bg-transparent text-sm text-bone outline-none placeholder:text-dust/60"
                   />
                 </Field>
               </div>

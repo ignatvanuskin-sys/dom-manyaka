@@ -9,10 +9,10 @@ import Cta from "@/components/ui/Cta";
 /** Пословное появление: слово выезжает снизу, за ним остаётся тень. */
 function Letters({ text }: { text: string }) {
   return (
-    <p
-      aria-label={text}
-      className="editorial text-[2rem] leading-none text-blood sm:text-[2.8rem] lg:text-[3.4rem]"
-    >
+    <p className="editorial text-[2rem] leading-none text-blood sm:text-[2.8rem] lg:text-[3.4rem]">
+      {/* aria-label на <p> запрещён спецификацией ARIA. Текст даём скрытым
+          span, а анимированные буквы помечаем как декоративные. */}
+      <span className="sr-only">{text}</span>
       {text.split("").map((ch, i) => (
         <motion.span
           key={`${ch}-${i}`}
