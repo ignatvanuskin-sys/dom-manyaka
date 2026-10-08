@@ -16,16 +16,21 @@ type Props = {
  */
 export default function CountUp({ value, decimals = 0, duration = 1500, className }: Props) {
   const ref = useRef<HTMLSpanElement>(null);
-  const [n, setN] = useState(0);
+  /* Начальное состояние — итоговое число, а не ноль: так значение попадает
+     в серверный HTML и его читают поисковые роботы. Анимация включается
+     только если блок ещё не был на экране. */
+  const [n, setN] = useState(value);
 
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
 
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      setN(value);
-      return;
-    }
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+    // Блок уже был в кадре или выше него — не мигаем нулём, оставляем итог.
+    if (el.getBoundingClientRect().top < window.innerHeight * 0.92) return;
+
+    setN(0);
 
     let raf = 0;
     let start = 0;
