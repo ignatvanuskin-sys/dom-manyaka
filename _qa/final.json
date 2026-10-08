@@ -1,0 +1,220 @@
+{
+  "contentIntegrity": {
+    "suspicious": [],
+    "emptyLinks": 0,
+    "emptyHeadings": 0,
+    "imagesNoAlt": 0,
+    "textLength": 13986
+  },
+  "consistency": {
+    "ldTypes": [
+      "EntertainmentBusiness",
+      "FAQPage"
+    ],
+    "ldPhone": "77018229284",
+    "ldPriceRange": "от 14 000 до 40 000 ₸ за команду",
+    "ldHoursOpens": "12:00",
+    "ldHoursCloses": "03:00",
+    "ldRating": "4.6",
+    "ldReviewCount": 791,
+    "pagePhones": [
+      "77018229284",
+      "7701822928404",
+      "7701822928407",
+      "770182292844"
+    ],
+    "telHrefs": [
+      "77018229284"
+    ],
+    "waNumbers": [
+      "77018229284"
+    ],
+    "faqQuestionsInLd": 12,
+    "faqQuestionsInPage": 12,
+    "samplePriceRow": "2 игрока → 14 000",
+    "hoursOnPage": "12:00 — 03:00"
+  },
+  "keyboard": {
+    "stops": 70,
+    "stopsWithoutOutline": 2,
+    "samplesWithoutOutline": [
+      {
+        "tag": "input",
+        "text": "",
+        "outline": false,
+        "inViewport": false,
+        "scrollY": 2
+      },
+      {
+        "tag": "input",
+        "text": "",
+        "outline": false,
+        "inViewport": false,
+        "scrollY": 17
+      }
+    ],
+    "reachedBeyondFirstScreen": false,
+    "bodyReached": 0
+  },
+  "budget": {
+    "requests": 26,
+    "jsKB": 673,
+    "cssKB": 78,
+    "fontKB": 334,
+    "imgKB": 108,
+    "totalKB": 1193,
+    "cls": 0,
+    "domNodes": 1350,
+    "fcp": 340
+  },
+  "textZoom200": {
+    "overflow": true,
+    "scrollWidth": 518,
+    "clientWidth": 390,
+    "clippedTextBlocks": 2
+  },
+  "external": {
+    "found": 6,
+    "results": [
+      {
+        "url": "https://wa.me/77018229284",
+        "status": 200
+      },
+      {
+        "url": "https://2gis.kz/almaty/gallery/firm/70000001098627726",
+        "status": 200
+      },
+      {
+        "url": "https://2gis.kz/almaty/firm/70000001098627726/tab/reviews",
+        "status": 200
+      },
+      {
+        "url": "https://www.instagram.com/dom_manyaka",
+        "status": 200
+      },
+      {
+        "url": "https://2gis.kz/almaty/directions/points/%7C76.90891%2C43.234284%3B700",
+        "status": 200
+      },
+      {
+        "url": "https://2gis.kz/almaty/firm/70000001098627726",
+        "status": 200
+      }
+    ]
+  },
+  "axe": {
+    "390": [],
+    "820": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 3
+      }
+    ],
+    "1440": []
+  },
+  "noJs": {
+    "topElementIsOverlay": false,
+    "textLength": 13992,
+    "h1": "ДомМаньяка — хоррор-квест в Ал"
+  },
+  "widths": [
+    {
+      "w": 320,
+      "overflow": false,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "errors": 0,
+      "badResponses": 0
+    },
+    {
+      "w": 360,
+      "overflow": false,
+      "scrollWidth": 360,
+      "clientWidth": 360,
+      "errors": 0,
+      "badResponses": 0
+    },
+    {
+      "w": 375,
+      "overflow": false,
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "errors": 0,
+      "badResponses": 0
+    },
+    {
+      "w": 390,
+      "overflow": false,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "errors": 0,
+      "badResponses": 0
+    },
+    {
+      "w": 412,
+      "overflow": false,
+      "scrollWidth": 412,
+      "clientWidth": 412,
+      "errors": 0,
+      "badResponses": 0
+    },
+    {
+      "w": 430,
+      "overflow": false,
+      "scrollWidth": 430,
+      "clientWidth": 430,
+      "errors": 0,
+      "badResponses": 0
+    },
+    {
+      "w": 768,
+      "overflow": false,
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "errors": 0,
+      "badResponses": 0
+    },
+    {
+      "w": 1024,
+      "overflow": false,
+      "scrollWidth": 1024,
+      "clientWidth": 1024,
+      "errors": 0,
+      "badResponses": 0
+    },
+    {
+      "w": 1280,
+      "overflow": false,
+      "scrollWidth": 1280,
+      "clientWidth": 1280,
+      "errors": 0,
+      "badResponses": 0
+    },
+    {
+      "w": 1440,
+      "overflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "errors": 0,
+      "badResponses": 0
+    },
+    {
+      "w": 1920,
+      "overflow": false,
+      "scrollWidth": 1920,
+      "clientWidth": 1920,
+      "errors": 0,
+      "badResponses": 0
+    }
+  ],
+  "crawler": {
+    "status": 304,
+    "ogTitle": "Дом Маньяка — хоррор-квест в Алматы на Манаса, 57",
+    "ogImage": "https://dom-manyaka.vercel.app/og.jpg",
+    "ogDescription": "Атмосферный хоррор-квест «Дом Маньяка» в Алматы: 60 минут, 2–20 игроков, актёры внутри. 4.6 на 2ГИС. Бронь — WhatsApp +7 701 822 92 84.",
+    "ogType": "website",
+    "hasH1": true,
+    "hasSchema": true
+  }
+}
