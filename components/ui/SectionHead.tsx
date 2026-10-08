@@ -30,7 +30,7 @@ export default function SectionHead({
       <Reveal delay={0.06} variant="glitch" className="mt-5">
         <h2
           className={cn(
-            "display text-[13vw] leading-[0.85] text-bone sm:text-[8vw] lg:text-[4.6rem] xl:text-[5.4rem]",
+            "display text-[11.5vw] leading-[0.88] text-bone sm:text-[8vw] lg:text-[4.6rem] xl:text-[5.4rem]",
             align === "center" && "mx-auto max-w-[22ch] text-center",
           )}
         >

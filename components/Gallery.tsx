@@ -239,7 +239,7 @@ export default function Gallery() {
               />
             </div>
 
-            <div className="flex items-center justify-between gap-4 border-t border-bone/10 px-5 py-4 md:px-8">
+            <div className="flex items-center justify-between gap-4 border-t border-bone/10 px-5 py-4 pb-[max(1rem,env(safe-area-inset-bottom))] md:px-8">
               <div className="min-w-0">
                 <p className="stamp max-w-[60ch] leading-relaxed">{currentMedia.credit}</p>
                 <p className="stamp mt-1 !text-blood md:hidden">свайп влево / вправо</p>

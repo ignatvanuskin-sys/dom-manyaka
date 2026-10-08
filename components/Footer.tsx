@@ -48,7 +48,7 @@ export default function Footer() {
           <p className="stamp">© 2026 Дом Маньяка</p>
         </div>
 
-        <p className="stamp mt-6 max-w-[92ch] leading-relaxed text-dust/80">
+        <p className="stamp mt-6 max-w-[92ch] !text-[0.72rem] leading-relaxed !text-dust">
           Фотографии на сайте — реальные кадры локации из галереи 2ГИС; автор указан под каждым
           снимком. Цены, рейтинг и отзывы приведены по данным карточки 2ГИС. Свободное время,
           стоимость для вашей компании, правила и возрастные ограничения подтверждает администратор.

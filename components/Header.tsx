@@ -94,7 +94,7 @@ export default function Header() {
               href="#top"
               className="group flex min-h-11 items-center gap-2.5 py-2.5"
             >
-              <span className="display text-[1.05rem] tracking-[0.06em] text-bone sm:text-xl">
+              <span className="display whitespace-nowrap text-[0.95rem] tracking-[0.06em] text-bone sm:text-xl">
                 Dom Manyaka
               </span>
               <span className="stamp hidden text-[0.55rem] text-dust sm:block">

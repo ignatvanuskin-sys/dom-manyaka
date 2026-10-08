@@ -19,7 +19,10 @@ export default function Cursor() {
 
   useEffect(() => {
     if (reduce) return;
-    if (!window.matchMedia("(pointer: fine)").matches) return;
+    // Один `pointer: fine` не гарантирует, что это не ноутбук с тачскрином:
+    // на устройствах с касанием системный курсор убирать нельзя.
+    if (!window.matchMedia("(pointer: fine) and (hover: hover)").matches) return;
+    if (navigator.maxTouchPoints > 0) return;
     setEnabled(true);
     document.documentElement.classList.add("cursor-none");
     return () => document.documentElement.classList.remove("cursor-none");

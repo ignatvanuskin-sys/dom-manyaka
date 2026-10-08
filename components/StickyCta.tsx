@@ -13,9 +13,24 @@ export default function StickyCta() {
     const onScroll = () => {
       const y = window.scrollY;
       const doc = document.documentElement;
+
+      // У футера панель не нужна — там свои контакты.
       const nearBottom = y + window.innerHeight > doc.scrollHeight - 420;
-      setShow(y > 560 && !nearBottom);
+
+      /* Внутри блока брони панель перекрывала кнопку отправки на 27 px.
+         Там она лишняя: форма и есть целевое действие.
+         Проверяем геометрию напрямую — IntersectionObserver может пропустить
+         пересечение при быстрой прокрутке. */
+      const booking = document.getElementById("booking");
+      let bookingSeen = false;
+      if (booking) {
+        const r = booking.getBoundingClientRect();
+        bookingSeen = r.top < window.innerHeight - 120 && r.bottom > 0;
+      }
+
+      setShow(y > 560 && !nearBottom && !bookingSeen);
     };
+
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     window.addEventListener("resize", onScroll);
