@@ -101,9 +101,11 @@ export default function RootLayout({
       className={`${oswald.variable} ${inter.variable} ${playfair.variable}`}
     >
       <head>
-        {/* Если JavaScript не выполнится, контент обязан остаться видимым. */}
+        {/* Если JavaScript не выполнится (отключён, заблокирован, не догрузился
+            бандл), контент обязан остаться доступным. Иначе прелоадер
+            остаётся висеть поверх страницы и посетитель видит чёрный экран. */}
         <noscript>
-          <style>{`[data-reveal]{opacity:1!important;transform:none!important;filter:none!important;clip-path:none!important}`}</style>
+          <style>{`[data-reveal]{opacity:1!important;transform:none!important;filter:none!important;clip-path:none!important}[data-preloader]{display:none!important}#faq dl div>dd{height:auto!important;opacity:1!important;overflow:visible!important}`}</style>
         </noscript>
       </head>
       <body className="antialiased">

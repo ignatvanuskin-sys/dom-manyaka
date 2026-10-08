@@ -64,6 +64,7 @@ export default function Preloader() {
       {open && (
         <motion.div
           key="preloader"
+          data-preloader=""
           className="fixed inset-0 z-[150] flex cursor-pointer items-center justify-center bg-void"
           initial={{ clipPath: "inset(0% 0% 0% 0%)" }}
           exit={{ clipPath: "inset(0% 0% 100% 0%)" }}
