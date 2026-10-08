@@ -4,7 +4,7 @@
     "emptyLinks": 0,
     "emptyHeadings": 0,
     "imagesNoAlt": 0,
-    "textLength": 13986
+    "textLength": 13738
   },
   "consistency": {
     "ldTypes": [
@@ -50,7 +50,7 @@
         "text": "",
         "outline": false,
         "inViewport": false,
-        "scrollY": 17
+        "scrollY": 2
       }
     ],
     "reachedBeyondFirstScreen": false,
@@ -59,13 +59,13 @@
   "budget": {
     "requests": 26,
     "jsKB": 673,
-    "cssKB": 78,
+    "cssKB": 77,
     "fontKB": 334,
     "imgKB": 108,
     "totalKB": 1193,
     "cls": 0,
-    "domNodes": 1350,
-    "fcp": 340
+    "domNodes": 1321,
+    "fcp": 368
   },
   "textZoom200": {
     "overflow": true,
@@ -104,18 +104,12 @@
   },
   "axe": {
     "390": [],
-    "820": [
-      {
-        "id": "color-contrast",
-        "impact": "serious",
-        "nodes": 3
-      }
-    ],
+    "820": [],
     "1440": []
   },
   "noJs": {
     "topElementIsOverlay": false,
-    "textLength": 13992,
+    "textLength": 13744,
     "h1": "ДомМаньяка — хоррор-квест в Ал"
   },
   "widths": [
