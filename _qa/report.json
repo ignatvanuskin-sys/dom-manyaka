@@ -1,0 +1,506 @@
+[
+  {
+    "vp": "desktop-1440",
+    "metrics": {
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "docHeight": 20263,
+      "h1": "ДОМ МАНЬЯКА — ХОРРОР-КВЕСТ В АЛМАТЫ",
+      "overflowCount": 37,
+      "overflow": [
+        {
+          "tag": "div",
+          "cls": "marquee-track flex w-max",
+          "left": -393,
+          "right": 4270
+        },
+        {
+          "tag": "ul",
+          "cls": "flex shrink-0 items-center",
+          "left": -393,
+          "right": 1939
+        },
+        {
+          "tag": "li",
+          "cls": "flex items-center",
+          "left": -393,
+          "right": -26
+        },
+        {
+          "tag": "span",
+          "cls": "eyebrow whitespace-nowrap px-6 text-[0.6rem] text-dust md:px-10",
+          "left": -393,
+          "right": -30
+        },
+        {
+          "tag": "span",
+          "cls": "size-1 shrink-0 rotate-45 bg-blood/70",
+          "left": -31,
+          "right": -25
+        },
+        {
+          "tag": "li",
+          "cls": "flex items-center",
+          "left": -26,
+          "right": 342
+        },
+        {
+          "tag": "span",
+          "cls": "eyebrow whitespace-nowrap px-6 text-[0.6rem] text-dust md:px-10",
+          "left": -26,
+          "right": 338
+        },
+        {
+          "tag": "li",
+          "cls": "flex items-center",
+          "left": 1268,
+          "right": 1570
+        }
+      ],
+      "stillHidden": 70,
+      "hiddenSample": [
+        "",
+        "",
+        "",
+        "",
+        "mt-8",
+        ""
+      ],
+      "sections": 10,
+      "buttons": 70
+    },
+    "problems": []
+  },
+  {
+    "vp": "desktop-1280",
+    "metrics": {
+      "scrollWidth": 1280,
+      "clientWidth": 1280,
+      "docHeight": 19698,
+      "h1": "ДОМ МАНЬЯКА — ХОРРОР-КВЕСТ В АЛМАТЫ",
+      "overflowCount": 37,
+      "overflow": [
+        {
+          "tag": "div",
+          "cls": "marquee-track flex w-max",
+          "left": -406,
+          "right": 4257
+        },
+        {
+          "tag": "ul",
+          "cls": "flex shrink-0 items-center",
+          "left": -406,
+          "right": 1925
+        },
+        {
+          "tag": "li",
+          "cls": "flex items-center",
+          "left": -406,
+          "right": -39
+        },
+        {
+          "tag": "span",
+          "cls": "eyebrow whitespace-nowrap px-6 text-[0.6rem] text-dust md:px-10",
+          "left": -406,
+          "right": -43
+        },
+        {
+          "tag": "span",
+          "cls": "size-1 shrink-0 rotate-45 bg-blood/70",
+          "left": -44,
+          "right": -39
+        },
+        {
+          "tag": "li",
+          "cls": "flex items-center",
+          "left": -39,
+          "right": 329
+        },
+        {
+          "tag": "span",
+          "cls": "eyebrow whitespace-nowrap px-6 text-[0.6rem] text-dust md:px-10",
+          "left": -39,
+          "right": 325
+        },
+        {
+          "tag": "li",
+          "cls": "flex items-center",
+          "left": 1254,
+          "right": 1557
+        }
+      ],
+      "stillHidden": 74,
+      "hiddenSample": [
+        "flex items-center gap-4",
+        "mt-5",
+        "mt-6",
+        "",
+        "",
+        ""
+      ],
+      "sections": 10,
+      "buttons": 70
+    },
+    "problems": []
+  },
+  {
+    "vp": "tablet-1024",
+    "metrics": {
+      "scrollWidth": 1024,
+      "clientWidth": 1024,
+      "docHeight": 19424,
+      "h1": "ДОМ МАНЬЯКА — ХОРРОР-КВЕСТ В АЛМАТЫ",
+      "overflowCount": 40,
+      "overflow": [
+        {
+          "tag": "div",
+          "cls": "marquee-track flex w-max",
+          "left": -407,
+          "right": 4256
+        },
+        {
+          "tag": "ul",
+          "cls": "flex shrink-0 items-center",
+          "left": -407,
+          "right": 1925
+        },
+        {
+          "tag": "li",
+          "cls": "flex items-center",
+          "left": -407,
+          "right": -40
+        },
+        {
+          "tag": "span",
+          "cls": "eyebrow whitespace-nowrap px-6 text-[0.6rem] text-dust md:px-10",
+          "left": -407,
+          "right": -44
+        },
+        {
+          "tag": "span",
+          "cls": "size-1 shrink-0 rotate-45 bg-blood/70",
+          "left": -45,
+          "right": -39
+        },
+        {
+          "tag": "li",
+          "cls": "flex items-center",
+          "left": -40,
+          "right": 328
+        },
+        {
+          "tag": "span",
+          "cls": "eyebrow whitespace-nowrap px-6 text-[0.6rem] text-dust md:px-10",
+          "left": -40,
+          "right": 324
+        },
+        {
+          "tag": "li",
+          "cls": "flex items-center",
+          "left": 946,
+          "right": 1253
+        }
+      ],
+      "stillHidden": 71,
+      "hiddenSample": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "mt-8"
+      ],
+      "sections": 10,
+      "buttons": 70
+    },
+    "problems": []
+  },
+  {
+    "vp": "mobile-430",
+    "metrics": {
+      "scrollWidth": 430,
+      "clientWidth": 430,
+      "docHeight": 26709,
+      "h1": "ДОМ МАНЬЯКА — ХОРРОР-КВЕСТ В АЛМАТЫ",
+      "overflowCount": 44,
+      "overflow": [
+        {
+          "tag": "div",
+          "cls": "marquee-track flex w-max",
+          "left": -388,
+          "right": 3827
+        },
+        {
+          "tag": "ul",
+          "cls": "flex shrink-0 items-center",
+          "left": -388,
+          "right": 1719
+        },
+        {
+          "tag": "li",
+          "cls": "flex items-center",
+          "left": -388,
+          "right": -54
+        },
+        {
+          "tag": "span",
+          "cls": "eyebrow whitespace-nowrap px-6 text-[0.6rem] text-dust md:px-10",
+          "left": -388,
+          "right": -58
+        },
+        {
+          "tag": "span",
+          "cls": "size-1 shrink-0 rotate-45 bg-blood/70",
+          "left": -58,
+          "right": -53
+        },
+        {
+          "tag": "li",
+          "cls": "flex items-center",
+          "left": -54,
+          "right": 283
+        },
+        {
+          "tag": "span",
+          "cls": "eyebrow whitespace-nowrap px-6 text-[0.6rem] text-dust md:px-10",
+          "left": -54,
+          "right": 279
+        },
+        {
+          "tag": "li",
+          "cls": "flex items-center",
+          "left": 283,
+          "right": 514
+        }
+      ],
+      "stillHidden": 71,
+      "hiddenSample": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "mt-8"
+      ],
+      "sections": 10,
+      "buttons": 70
+    },
+    "problems": []
+  },
+  {
+    "vp": "mobile-414",
+    "metrics": {
+      "scrollWidth": 414,
+      "clientWidth": 414,
+      "docHeight": 26476,
+      "h1": "ДОМ МАНЬЯКА — ХОРРОР-КВЕСТ В АЛМАТЫ",
+      "overflowCount": 44,
+      "overflow": [
+        {
+          "tag": "div",
+          "cls": "marquee-track flex w-max",
+          "left": -394,
+          "right": 3821
+        },
+        {
+          "tag": "ul",
+          "cls": "flex shrink-0 items-center",
+          "left": -394,
+          "right": 1713
+        },
+        {
+          "tag": "li",
+          "cls": "flex items-center",
+          "left": -394,
+          "right": -60
+        },
+        {
+          "tag": "span",
+          "cls": "eyebrow whitespace-nowrap px-6 text-[0.6rem] text-dust md:px-10",
+          "left": -394,
+          "right": -64
+        },
+        {
+          "tag": "span",
+          "cls": "size-1 shrink-0 rotate-45 bg-blood/70",
+          "left": -64,
+          "right": -59
+        },
+        {
+          "tag": "li",
+          "cls": "flex items-center",
+          "left": -60,
+          "right": 277
+        },
+        {
+          "tag": "span",
+          "cls": "eyebrow whitespace-nowrap px-6 text-[0.6rem] text-dust md:px-10",
+          "left": -60,
+          "right": 273
+        },
+        {
+          "tag": "li",
+          "cls": "flex items-center",
+          "left": 277,
+          "right": 508
+        }
+      ],
+      "stillHidden": 71,
+      "hiddenSample": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "mt-8"
+      ],
+      "sections": 10,
+      "buttons": 70
+    },
+    "problems": []
+  },
+  {
+    "vp": "mobile-390",
+    "metrics": {
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "docHeight": 26381,
+      "h1": "ДОМ МАНЬЯКА — ХОРРОР-КВЕСТ В АЛМАТЫ",
+      "overflowCount": 44,
+      "overflow": [
+        {
+          "tag": "div",
+          "cls": "marquee-track flex w-max",
+          "left": -411,
+          "right": 3804
+        },
+        {
+          "tag": "ul",
+          "cls": "flex shrink-0 items-center",
+          "left": -411,
+          "right": 1697
+        },
+        {
+          "tag": "li",
+          "cls": "flex items-center",
+          "left": -411,
+          "right": -76
+        },
+        {
+          "tag": "span",
+          "cls": "eyebrow whitespace-nowrap px-6 text-[0.6rem] text-dust md:px-10",
+          "left": -411,
+          "right": -80
+        },
+        {
+          "tag": "span",
+          "cls": "size-1 shrink-0 rotate-45 bg-blood/70",
+          "left": -81,
+          "right": -75
+        },
+        {
+          "tag": "li",
+          "cls": "flex items-center",
+          "left": -76,
+          "right": 260
+        },
+        {
+          "tag": "span",
+          "cls": "eyebrow whitespace-nowrap px-6 text-[0.6rem] text-dust md:px-10",
+          "left": -76,
+          "right": 256
+        },
+        {
+          "tag": "li",
+          "cls": "flex items-center",
+          "left": 260,
+          "right": 492
+        }
+      ],
+      "stillHidden": 59,
+      "hiddenSample": [
+        "mt-8",
+        "flex items-center gap-4",
+        "mt-5",
+        "mt-6",
+        "",
+        "mt-5"
+      ],
+      "sections": 10,
+      "buttons": 70
+    },
+    "problems": []
+  },
+  {
+    "vp": "mobile-375",
+    "metrics": {
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "docHeight": 26165,
+      "h1": "ДОМ МАНЬЯКА — ХОРРОР-КВЕСТ В АЛМАТЫ",
+      "overflowCount": 44,
+      "overflow": [
+        {
+          "tag": "div",
+          "cls": "marquee-track flex w-max",
+          "left": -417,
+          "right": 3797
+        },
+        {
+          "tag": "ul",
+          "cls": "flex shrink-0 items-center",
+          "left": -417,
+          "right": 1690
+        },
+        {
+          "tag": "li",
+          "cls": "flex items-center",
+          "left": -417,
+          "right": -83
+        },
+        {
+          "tag": "span",
+          "cls": "eyebrow whitespace-nowrap px-6 text-[0.6rem] text-dust md:px-10",
+          "left": -417,
+          "right": -87
+        },
+        {
+          "tag": "span",
+          "cls": "size-1 shrink-0 rotate-45 bg-blood/70",
+          "left": -88,
+          "right": -82
+        },
+        {
+          "tag": "li",
+          "cls": "flex items-center",
+          "left": -83,
+          "right": 254
+        },
+        {
+          "tag": "span",
+          "cls": "eyebrow whitespace-nowrap px-6 text-[0.6rem] text-dust md:px-10",
+          "left": -83,
+          "right": 250
+        },
+        {
+          "tag": "li",
+          "cls": "flex items-center",
+          "left": 254,
+          "right": 485
+        }
+      ],
+      "stillHidden": 64,
+      "hiddenSample": [
+        "",
+        "mt-6",
+        "flex items-center gap-4",
+        "mt-5",
+        "mt-6",
+        "mt-8"
+      ],
+      "sections": 10,
+      "buttons": 70
+    },
+    "problems": []
+  }
+]

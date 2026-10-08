@@ -1,0 +1,103 @@
+{
+  "source_2gis": "https://2gis.kz/almaty/gallery/firm/70000001098627726",
+  "source_2gis_api": "https://api.photo.2gis.com/3.0/objects/70000001098627726/albums/all/media?key=gYu1s9N1wP&page_size=30&locale=ru_KZ",
+  "2gis_album_counts": { "all": 20, "video": 3, "entrance": 1, "price_list_image": 1, "user": 19 },
+
+  "2gis_photos": [
+    "https://i0.photo.2gis.com/photo-gallery/0101a561-41e9-406d-a881-8d456f5a6763.jpg",
+    "https://i8.photo.2gis.com/photo-gallery/fcccbdb0-85fa-42bf-bf16-2314c5a85997.jpg",
+    "https://i5.photo.2gis.com/photo-gallery/5154fddf-3917-4831-bcfa-d3411bb7a6b0.jpg",
+    "https://i9.photo.2gis.com/photo-gallery/468be26a-4427-4c80-9413-532036ba555b.jpg",
+    "https://i4.photo.2gis.com/photo-gallery/c8f6f4a1-a3a4-4ea3-8e5e-beb072fab37d.jpg",
+    "https://i7.photo.2gis.com/photo-gallery/4a29fedc-5758-40f7-8e26-e32ddc8cfb50.jpg",
+    "https://i8.photo.2gis.com/photo-gallery/7d58a498-6476-45a1-a2ff-2a7b4ad9ca93.jpg",
+    "https://i5.photo.2gis.com/photo-gallery/425a4d0c-9c68-4cdf-b57b-fe7344ddad6b.jpg",
+    "https://i5.photo.2gis.com/photo-gallery/0ff022f4-a6fc-42ec-be8f-dcb26a12d2f8.jpg",
+    "https://i4.photo.2gis.com/photo-gallery/5aef5fe9-8eb4-4ea1-a80f-f0a451a12207.jpg",
+    "https://i0.photo.2gis.com/photo-gallery/fefbaab2-7955-4e8c-8059-b4bb24d2e1d6.jpg",
+    "https://i8.photo.2gis.com/photo-gallery/4d8a3817-36f6-4d8e-b888-98c5bb09189e.jpg",
+    "https://i2.photo.2gis.com/photo-gallery/bdedf653-9e92-4e6f-8564-14ff50a40d24.jpg",
+    "https://i9.photo.2gis.com/photo-gallery/39773a85-873c-4fa4-9fed-4c7ead04cbc7.jpg",
+    "https://i8.photo.2gis.com/photo-gallery/3964cad4-91e5-41b0-ad39-699d1aa3b7e5.jpg",
+    "https://i8.photo.2gis.com/photo-gallery/f4cca7cb-9223-46a5-859d-3cbb988dde4d.jpg",
+    "https://i1.photo.2gis.com/images/geo/0/30258560074035546_326a.jpg",
+    "https://i1.photo.2gis.com/video-gallery/268612a8-8b7d-4c66-8d08-e04da5f472cf.jpg",
+    "https://i1.photo.2gis.com/video-gallery/fe87d7ab-14a6-4106-83c7-8802a06cc168.jpg",
+    "https://i1.photo.2gis.com/video-gallery/348b288e-e1d9-42d1-a0fc-b0a33b80e6e0.jpg"
+  ],
+
+  "2gis_photo_captions": [
+    { "url": "https://i0.photo.2gis.com/photo-gallery/0101a561-41e9-406d-a881-8d456f5a6763.jpg", "caption": "", "author": "Jenis Sailau", "type": "photo", "album": "От пользователя", "date": "2025-05-11" },
+    { "url": "https://i8.photo.2gis.com/photo-gallery/fcccbdb0-85fa-42bf-bf16-2314c5a85997.jpg", "caption": "", "author": "aisuzy", "type": "photo", "album": "От пользователей", "date": "2025-04-18" },
+    { "url": "https://i5.photo.2gis.com/photo-gallery/5154fddf-3917-4831-bcfa-d3411bb7a6b0.jpg", "caption": "", "author": "Aknar Murai", "type": "photo", "album": "От пользователя", "date": "2025-03-25" },
+    { "url": "https://i9.photo.2gis.com/photo-gallery/468be26a-4427-4c80-9413-532036ba555b.jpg", "caption": "", "author": "aisuzy", "type": "photo", "album": "Из отзывов", "date": "2025-04-18" },
+    { "url": "https://i4.photo.2gis.com/photo-gallery/c8f6f4a1-a3a4-4ea3-8e5e-beb072fab37d.jpg", "caption": "", "author": "Aknar Murai", "type": "photo", "album": "От пользователя", "date": "2025-03-21" },
+    { "url": "https://i7.photo.2gis.com/photo-gallery/4a29fedc-5758-40f7-8e26-e32ddc8cfb50.jpg", "caption": "", "author": "Kydyr Konisbaev", "type": "photo", "album": "Из отзывов", "date": "2026-10-05" },
+    { "url": "https://i8.photo.2gis.com/photo-gallery/7d58a498-6476-45a1-a2ff-2a7b4ad9ca93.jpg", "caption": "", "author": "Али Аслан", "type": "photo", "album": "Из отзывов", "date": "2025-04-15" },
+    { "url": "https://i5.photo.2gis.com/photo-gallery/425a4d0c-9c68-4cdf-b57b-fe7344ddad6b.jpg", "caption": "", "author": "Aknar Murai", "type": "photo", "album": "От пользователя", "date": "2025-02-27" },
+    { "url": "https://i5.photo.2gis.com/photo-gallery/0ff022f4-a6fc-42ec-be8f-dcb26a12d2f8.jpg", "caption": "", "author": "Aknar Murai", "type": "photo", "album": "От пользователя", "date": "2025-02-27" },
+    { "url": "https://i4.photo.2gis.com/photo-gallery/5aef5fe9-8eb4-4ea1-a80f-f0a451a12207.jpg", "caption": "", "author": "yellowsun ;)", "type": "photo", "album": "Из отзывов", "date": "2025-02-27" },
+    { "url": "https://i0.photo.2gis.com/photo-gallery/fefbaab2-7955-4e8c-8059-b4bb24d2e1d6.jpg", "caption": "", "author": "Aknar Murai", "type": "photo", "album": "От пользователя", "date": "2025-03-11" },
+    { "url": "https://i8.photo.2gis.com/photo-gallery/4d8a3817-36f6-4d8e-b888-98c5bb09189e.jpg", "caption": "", "author": "zhans", "type": "photo", "album": "Вход (entrance)", "date": "2025-05-29" },
+    { "url": "https://i2.photo.2gis.com/photo-gallery/bdedf653-9e92-4e6f-8564-14ff50a40d24.jpg", "caption": "", "author": "ena_nur erme", "type": "photo", "album": "От пользователя", "date": "2026-07-30" },
+    { "url": "https://i9.photo.2gis.com/photo-gallery/39773a85-873c-4fa4-9fed-4c7ead04cbc7.jpg", "caption": "", "author": "yellowsun ;)", "type": "photo", "album": "Из отзывов", "date": "2025-02-27" },
+    { "url": "https://i8.photo.2gis.com/photo-gallery/3964cad4-91e5-41b0-ad39-699d1aa3b7e5.jpg", "caption": "PRICE / прайс-лист (см. 2gis_price_list_ocr). Текст: 2 чел-14.000 тг, 3 чел-15.000, 4 чел-16.000, 5 чел-20.000, 6 чел-24.000, 7 чел-28.000, 8 чел-32.000, 9 чел-36.000, 10 чел-40.000. Вторая табличка: «Ваше видео с прохождением квеста БЕСПЛАТНО! Условия: оставить отзыв в 2GIS, подписаться на Instagram, отметить в Stories @DOM_MANYAKA».", "author": "Ramazan Ashimkan", "type": "photo", "album": "Цены (price_list_image)", "date": "2025-03-22" },
+    { "url": "https://i8.photo.2gis.com/photo-gallery/f4cca7cb-9223-46a5-859d-3cbb988dde4d.jpg", "caption": "", "author": "Aknar Murai", "type": "photo", "album": "От пользователя", "date": "2025-02-27" },
+    { "url": "https://i1.photo.2gis.com/images/geo/0/30258560074035546_326a.jpg", "caption": "", "author": "Жан", "type": "photo", "album": "От пользователя (здание/вход, 2022)", "date": "2022-05-15" },
+    { "url": "https://i1.photo.2gis.com/video-gallery/268612a8-8b7d-4c66-8d08-e04da5f472cf.jpg", "caption": "Видео (7 сек), обложка", "author": "Aknar Murai", "type": "video_cover", "date": "2025-02-27" },
+    { "url": "https://i1.photo.2gis.com/video-gallery/fe87d7ab-14a6-4106-83c7-8802a06cc168.jpg", "caption": "Видео (5 сек), обложка", "author": "ena_nur erme", "type": "video_cover", "date": "2026-10-03" },
+    { "url": "https://i1.photo.2gis.com/video-gallery/348b288e-e1d9-42d1-a0fc-b0a33b80e6e0.jpg", "caption": "Видео (7 сек), обложка", "author": "Mard", "type": "video_cover", "date": "2026-09-29" }
+  ],
+
+  "2gis_price_list_ocr": {
+    "photo_url": "https://i8.photo.2gis.com/photo-gallery/3964cad4-91e5-41b0-ad39-699d1aa3b7e5.jpg",
+    "prices": [
+      { "people": 2, "price_tg": 14000 },
+      { "people": 3, "price_tg": 15000 },
+      { "people": 4, "price_tg": 16000 },
+      { "people": 5, "price_tg": 20000 },
+      { "people": 6, "price_tg": 24000 },
+      { "people": 7, "price_tg": 28000 },
+      { "people": 8, "price_tg": 32000 },
+      { "people": 9, "price_tg": 36000 },
+      { "people": 10, "price_tg": 40000 }
+    ],
+    "bonus": "Ваше видео с прохождением квеста бесплатно (условия: отзыв в 2GIS, подписка на Instagram, отметка @DOM_MANYAKA в Stories)"
+  },
+
+  "instagram": {
+    "profile_url": "https://www.instagram.com/dom_manyaka",
+    "bio_full": "КВЕСТ | АЛМАТЫ | ДОМ МАНЬЯКА\nDOM MANYAKА\n🕯 Атмосферный хоррор-квест\n⏱ 60 минут полного напряжения\n👥 2–20 игроков\n📍 ул.Манаса 57\n📩 Бронирование: Direct / WhatsApp\nwa.me/77018229284",
+    "followers": "724 подписчиков, 2 подписки (лог-аут, на момент проверки; в embed-метаданных — 723 followers / 29 posts)",
+    "profile_link_in_bio": "https://wa.me/77018229284",
+    "highlights": [
+      { "name": "You", "url": "https://www.instagram.com/stories/highlights/18086165783586215/", "cover": "https://scontent.cdninstagram.com/v/t51.71878-15/619097565_1331131565439145_2766217300080594377_n.jpg", "items": [] },
+      { "name": "You", "url": "https://www.instagram.com/stories/highlights/17865902949340180/", "cover": "https://scontent.cdninstagram.com/v/t51.2885-15/485227706_1181759653423822_3212605708539971930_n.jpg", "items": [] },
+      { "name": "Price", "url": "https://www.instagram.com/stories/highlights/17931970937901176/", "cover": "https://scontent.cdninstagram.com/v/t51.2885-15/485067948_685457307151106_6218729917830998406_n.jpg", "items": [] },
+      { "name": "Levels", "url": "https://www.instagram.com/stories/highlights/18385104802141821/", "cover": "https://scontent.cdninstagram.com/v/t51.2885-15/485154692_657102160009306_3728169363879104119_n.jpg", "items": [] },
+      { "name": "Address", "url": "https://www.instagram.com/stories/highlights/17927464307918117/", "cover": "https://scontent.cdninstagram.com/v/t51.2885-15/485976122_680165934350673_17924015315261031_n.jpg", "items": [] },
+      { "name": "Video", "url": "https://www.instagram.com/stories/highlights/17874617127275466/", "cover": "https://scontent.cdninstagram.com/v/t51.2885-15/484986444_1803262753788530_3550388578472683020_n.jpg", "items": [] }
+    ],
+    "highlights_note": "Содержимое актуальных (Price / Levels / Address / Video) без входа в аккаунт недоступно — Instagram показывает «Зарегистрируйтесь, чтобы увидеть больше актуальных историй». Собраны только названия, ID и обложки.",
+    "posts": [],
+    "posts_note": "В лог-аут виде в сетке профиля отображаются 12 публикаций — все являются Reels (см. массив reels). Постов-фотографий в сетке видно 0.",
+    "reels": [
+      { "url": "https://www.instagram.com/reel/DW-BgNBjG3n/", "shortcode": "DW-BgNBjG3n", "date": "2026-04-10", "likes": 18, "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670627277_1442389774042774_5920035067821806431_n.jpg", "caption": "" },
+      { "url": "https://www.instagram.com/reel/DVj8cGvDPOv/", "shortcode": "DVj8cGvDPOv", "date": "2026-03-06", "likes": 22, "image": "https://scontent.cdninstagram.com/v/t51.71878-15/649225567_2371406560009579_8512905190409269775_n.jpg", "caption": "Кто из ваших друзей убежит первым?\nСоберите 10 человек и приходите проверить свою смелость в нашем квесте 👾\n🔥 Акция только в марте:\nЕсли вас 10 человек или больше —\n🎥 видео прохождения квеста бесплатно.\nМы снимем самые страшные и смешные моменты вашей команды 😱\nСтоимость:\n4 000₸ с человека\nОтмечайте друзей, которые точно испугаются первыми 👇\n⚠️ Количество игр ограничено.\n📩 Бронь в директ.\n#квест #квесталматы #хоррорквест #кудапойтиалматы #адреналин" },
+      { "url": "https://www.instagram.com/reel/DUlJY7rjBeT/", "shortcode": "DUlJY7rjBeT", "date": "2026-02-10", "likes": 37, "image": "https://scontent.cdninstagram.com/v/t51.71878-15/629368685_1243905997706767_4069413304518020920_n.jpg", "caption": "Вот это вжился в роль 🎭\n🕒 Работаем ежедневно: 12:00 – 03:00\n📍 ул. Манаса, 57\n📞 Бронь: 8 701 822 92 84 #домманьяка #хоррорквест #квесткомната #trend #" },
+      { "url": "https://www.instagram.com/reel/DURPMbVjDx6/", "shortcode": "DURPMbVjDx6", "date": "2026-02-02", "likes": 69, "image": "https://scontent.cdninstagram.com/v/t51.71878-15/627846030_3054888554714658_7994529618288168063_n.jpg", "caption": "🥲🥲🥲" },
+      { "url": "https://www.instagram.com/reel/DT0OCDkjGvR/", "shortcode": "DT0OCDkjGvR", "date": "2026-01-22", "likes": 58, "image": "https://scontent.cdninstagram.com/v/t51.71878-15/619407269_1376192153788199_1057712410801540877_n.jpg", "caption": "" },
+      { "url": "https://www.instagram.com/reel/DRNU7xRDDtb/", "shortcode": "DRNU7xRDDtb", "date": "2025-11-18", "likes": 35, "image": "https://scontent.cdninstagram.com/v/t51.71878-15/582418833_1551245325823902_8207659599751989521_n.jpg", "caption": "" },
+      { "url": "https://www.instagram.com/reel/DK__H16MqJB/", "shortcode": "DK__H16MqJB", "date": "2025-06-17", "likes": 59, "image": "https://scontent.cdninstagram.com/v/t51.71878-15/504293851_1087453996640380_7334163687492570281_n.jpg", "caption": "#квест #хоррор #алматы #домманьяка" },
+      { "url": "https://www.instagram.com/reel/DKXcD_mIT0x/", "shortcode": "DKXcD_mIT0x", "date": "2025-06-01", "likes": 110, "image": "https://scontent.cdninstagram.com/v/t51.71878-15/503116360_1230699271849041_4779478534384179780_n.jpg", "caption": "#домманьяка #хоррорквест #алматы #реальныйхоррор #маньяк" },
+      { "url": "https://www.instagram.com/reel/DJ__tFyMz9T/", "shortcode": "DJ__tFyMz9T", "date": "2025-05-23", "likes": 49, "image": "https://scontent.cdninstagram.com/v/t51.71878-15/498548213_1415200019821026_6002065189114109566_n.jpg", "caption": "#квест #хоррор #алматы #домманьяка" },
+      { "url": "https://www.instagram.com/reel/DIbHWfTt8G8/", "shortcode": "DIbHWfTt8G8", "date": "2025-04-14", "likes": 68, "image": "https://scontent.cdninstagram.com/v/t51.71878-15/491436385_613320491662940_1380995239326677859_n.jpg", "caption": "🔪 Квест «Дом маньяка» 🔪\n📍Адрес: Манаса 57\n📕Запись: +7 701 822 9284\n#алматы #алматыквест #квесткомната #хоррорквест #страшныйквест #побегизкомнаты #реальныйквест #хорроригра #реальныйхоррор #fyp #foryou #foryoupage #viral #trending #trend #домманьяка #жуткийдом #ужас #адреналин" },
+      { "url": "https://www.instagram.com/reel/DGhSbz4otUb/", "shortcode": "DGhSbz4otUb", "date": "2025-02-25", "likes": 106, "image": "https://scontent.cdninstagram.com/v/t51.71878-15/481496210_635739242617283_2737909192565802707_n.jpg", "caption": "📍Адрес: Манаса 57\n📕Запись: +7 701 822 9284" },
+      { "url": "https://www.instagram.com/reel/DGgdpdftSTa/", "shortcode": "DGgdpdftSTa", "date": "2025-02-25", "likes": 104, "image": "https://scontent.cdninstagram.com/v/t51.75761-15/486560190_17849792619429324_1740651120676410627_n.jpg", "caption": "🔪 Квест «Дом маньяка» 🔪\nТемные коридоры, жуткие находки и зловещий хозяин, который уже рядом… 👁️💀\nСможете выбраться, пока двери ещё открываются? Или останетесь здесь навсегда? 😱🚪\n📍Адрес: Манаса 57\n📕Запись: +7 701 822 9284" }
+    ]
+  },
+
+  "booking_url": "https://wa.me/77018229284",
+  "booking_alt": "Direct в Instagram (@dom_manyaka); телефон +7 701 822 9284 / 8 701 822 92 84",
+  "notes": "ПОДТВЕРЖДЕНО (из открытых источников): Адрес — ул. Манаса 57, Алматы (2GIS + Instagram bio и подписи постов). Длительность — 60 минут (Instagram bio). Вместимость — 2–20 игроков (Instagram bio). Формат — атмосферный хоррор-квест «Дом маньяка», с актёрами (упоминания в комментариях). График работы — ежедневно 12:00–03:00 (подпись Reels от 10.02.2026). Цены (2GIS прайс-лист): 2 чел=14.000 тг, 3=15.000, 4=16.000, 5=20.000, 6=24.000, 7=28.000, 8=32.000, 9=36.000, 10=40.000 тг; в акционных Reels от 06.03.2026 указано «4 000₸ с человека» при команде 10+. Контакты/бронь: WhatsApp/телефон +7 701 822 9284, Direct в Instagram. Реклама: видео прохождения бесплатно за отзыв в 2GIS + подписку + отметку @DOM_MANYAKA в Stories. Instagram: 724 подписчика (лог-аут), 12 видимых публикаций — все Reels. НЕ НАЙДЕНО: количество комнат, возрастные ограничения (в комментарии спрашивали про 14–16 лет и 12-летнего ребёнка — ответа нет), названия отдельных сценариев/квестов (указан один квест «Дом маньяка»), содержание highlights Price/Levels/Address/Video (закрыты требованием входа), отдельный сайт/онлайн-форма бронирования (есть только WhatsApp/Direct/телефон)."
+}

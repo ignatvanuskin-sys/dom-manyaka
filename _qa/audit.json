@@ -1,0 +1,207 @@
+{
+  "routes": [
+    {
+      "route": "/",
+      "status": 200
+    },
+    {
+      "route": "/robots.txt",
+      "status": 200
+    },
+    {
+      "route": "/sitemap.xml",
+      "status": 200
+    },
+    {
+      "route": "/icon.svg",
+      "status": 200
+    },
+    {
+      "route": "/og.jpg",
+      "status": 200
+    },
+    {
+      "route": "/несуществующая-страница",
+      "status": 404,
+      "title": "Страница не найдена · Дом Маньяка",
+      "h1": "404",
+      "hasBackLink": true
+    }
+  ],
+  "links": {
+    "total": 36,
+    "anchors": 17,
+    "brokenAnchors": [],
+    "emptyHref": [],
+    "tel": [
+      {
+        "text": "+7 701 822 92 84",
+        "href": "tel:+77018229284",
+        "visible": true
+      },
+      {
+        "text": "ПОЗВОНИТЬ",
+        "href": "tel:+77018229284",
+        "visible": true
+      },
+      {
+        "text": "+7 701 822 92 84",
+        "href": "tel:+77018229284",
+        "visible": true
+      },
+      {
+        "text": "+7 701 822 92 84",
+        "href": "tel:+77018229284",
+        "visible": true
+      },
+      {
+        "text": "ПОЗВОНИТЬ",
+        "href": "tel:+77018229284",
+        "visible": true
+      },
+      {
+        "text": "+7 701 822 92 84",
+        "href": "tel:+77018229284",
+        "visible": true
+      }
+    ],
+    "wa": [
+      "https://wa.me/77018229284"
+    ],
+    "external": [
+      "https://wa.me/77018229284",
+      "https://2gis.kz/almaty/gallery/firm/70000001098627726",
+      "https://2gis.kz/almaty/firm/70000001098627726/tab/reviews",
+      "https://www.instagram.com/dom_manyaka",
+      "https://2gis.kz/almaty/directions/points/%7C76.90891%2C43.234284%3B70000001098627726",
+      "https://2gis.kz/almaty/firm/70000001098627726"
+    ]
+  },
+  "contactConsistency": {
+    "phonesOnPage": [
+      "77018229284"
+    ],
+    "ldTelephone": "+77018229284",
+    "ldAddress": "ул. Манаса, 57",
+    "ldRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.6",
+      "bestRating": "5",
+      "ratingCount": 1218,
+      "reviewCount": 791
+    },
+    "ldGeo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.234284,
+      "longitude": 76.90891
+    },
+    "ldTypes": [
+      "EntertainmentBusiness",
+      "FAQPage"
+    ]
+  },
+  "seo": {
+    "title": "Дом Маньяка — хоррор-квест в Алматы на Манаса, 57",
+    "titleLen": 49,
+    "description": "Атмосферный хоррор-квест «Дом Маньяка» в Алматы: 60 минут, 2–20 игроков, актёры внутри. 4.6 на 2ГИС. Бронь — WhatsApp +7 701 822 92 84.",
+    "descLen": 135,
+    "canonical": "https://dom-manyaka.vercel.app/",
+    "ogTitle": "Дом Маньяка — хоррор-квест в Алматы на Манаса, 57",
+    "ogImage": "https://dom-manyaka.vercel.app/og.jpg",
+    "twitter": "summary_large_image",
+    "robots": "index, follow",
+    "lang": "ru",
+    "h1Count": 1,
+    "h1Text": [
+      "ДОМ\nМАНЬЯКА\n— ХОРРОР-КВЕСТ В АЛМАТЫ"
+    ],
+    "headingOrderOk": true,
+    "sections": [
+      "top",
+      "story",
+      "waits",
+      "quest",
+      "atmosphere",
+      "reviews",
+      "price",
+      "booking",
+      "faq",
+      "contacts"
+    ],
+    "landmarks": {
+      "header": 9,
+      "main": 1,
+      "footer": 1,
+      "nav": 2
+    },
+    "imgsTotal": 19,
+    "imgsNoAlt": 0,
+    "imgsEmptyAlt": 2,
+    "buttonsNoName": 0
+  },
+  "mobileMenu": {
+    "buttonExists": true,
+    "expanded": "false",
+    "opened": {
+      "menuNav": false,
+      "scrollLocked": false,
+      "links": 0
+    },
+    "closedByEscape": true
+  },
+  "faq": {
+    "count": 12,
+    "firstExpanded": "true",
+    "afterToggle": "false",
+    "panelVisible": true
+  },
+  "lightbox": {
+    "open": true,
+    "focusInDialog": true,
+    "counterAfterArrow": "КАДР 02 / 09",
+    "closedByEscape": true,
+    "scrollRestored": true
+  },
+  "booking": {
+    "emptySubmit": {
+      "formExists": true,
+      "nameRequired": true,
+      "stillOnPage": true,
+      "openedCount": 0
+    },
+    "pricePreview": "ИТОГО ЗА КОМАНДУ 24 000 ₸ПО ПРАЙСУ 2ГИС",
+    "opened": [
+      "https://wa.me/77018229284?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%B1%D1%80%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BA%D0%B2%D0%B5%D1%81%D1%82%20%C2%AB%D0%94%D0%BE%D0%BC%20%D0%9C%D0%B0%D0%BD%D1%8C%D1%8F%D0%BA%D0%B0%C2%BB.%0A%D0%98%D0%B3%D1%80%D0%BE%D0%BA%D0%BE%D0%B2%3A%206%0A%D0%98%D0%BC%D1%8F%3A%20%D0%A2%D0%B5%D1%81%D1%82%20%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%0A%0A%D0%9F%D0%BE%D0%B4%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%2C%20%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%BB%D0%B8%20%D1%81%D0%BB%D0%BE%D1%82%3F"
+    ],
+    "decodedMessage": "Здравствуйте! Хочу забронировать квест «Дом Маньяка».\nИгроков: 6\nИмя: Тест Тестов\n\nПодскажите, свободен ли слот?",
+    "duplicateSubmit": {
+      "openedAfterDouble": 2
+    }
+  },
+  "at320": {
+    "scrollWidth": 320,
+    "clientWidth": 320,
+    "smallTargets": 5,
+    "bodyTextLength": 11741
+  },
+  "reducedMotion": {
+    "preloaderGone": true,
+    "hiddenReveals": 0,
+    "h1Visible": true,
+    "sections": 10
+  },
+  "timing": {
+    "ttfbMs": 1128,
+    "domContentLoaded": 56,
+    "firstPaint": 368,
+    "lcp": 2592
+  },
+  "resourceSizes": {
+    "image/avif": 166297,
+    "font/woff2": 342396
+  },
+  "jsBytes": 0,
+  "imageBytes": 0,
+  "console": [],
+  "failedRequests": []
+}

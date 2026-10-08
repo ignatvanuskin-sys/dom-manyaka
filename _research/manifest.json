@@ -1,0 +1,98 @@
+{
+  "hero-desktop": {
+    "src": "/media/hero-desktop.webp",
+    "width": 1440,
+    "height": 1006,
+    "bytes": 34260,
+    "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoOAAoAAwBSJbACdADC7TM8AAD+9e7grRpGdmE3C3T+rkQrzKh6VP20OvFslhZdEll4y3Zlgvd7tpHiUVXNoAAA",
+    "source_2gis": "photos/13.jpg"
+  },
+  "hero-mobile": {
+    "src": "/media/hero-mobile.webp",
+    "width": 607,
+    "height": 1080,
+    "bytes": 22902,
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAwAgCdASoIAA4AAwBSJZACdAD0p2SZf+JmAAD+75LWuPNabsg5pHy6znCQwrXnZu5YBoiua42WLW1HUjpb3eMVvXCAoPHQjKJpPAAA",
+    "source_2gis": "photos/13.jpg"
+  },
+  "blood-drips": {
+    "src": "/media/blood-drips.webp",
+    "width": 960,
+    "height": 1170,
+    "bytes": 60380,
+    "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoLAA4AAwBSJYwCw7Dbxs4AAP6mpRWm5mvZeil20vfqI50/8z97Bxydu0efStUMHbcfaAAA",
+    "source_2gis": "photos/02.jpg"
+  },
+  "blood-detail": {
+    "src": "/media/blood-detail.webp",
+    "width": 780,
+    "height": 700,
+    "bytes": 37434,
+    "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoOAA0AAwBSJYwCdAELT2/e1YAA/kCb+Wt2yS7xwgp5vYfONvrZ9psY8qwTZhH2fK7VutAELW2AAA==",
+    "source_2gis": "photos/02.jpg"
+  },
+  "stairs": {
+    "src": "/media/stairs.webp",
+    "width": 960,
+    "height": 1185,
+    "bytes": 100278,
+    "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAABQAgCdASoLAA4AAwBSJYwC7AEVVeVrBKtyVQAA/vLgRsgbINoca+vORq79XYIwBoCLRswyxVSi3m6NyFB8fN1i8VAAAA==",
+    "source_2gis": "photos/04.jpg"
+  },
+  "red-room": {
+    "src": "/media/red-room.webp",
+    "width": 970,
+    "height": 1780,
+    "bytes": 43464,
+    "blurDataURL": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACwAQCdASoIAA4AAwBSJQBOgCPtJ+RIAP73iwAFOKufw+QF6buluwCQh4djn+4+JmTwjIAA",
+    "source_2gis": "photos/01.jpg"
+  },
+  "cctv-wall": {
+    "src": "/media/cctv-wall.webp",
+    "width": 1400,
+    "height": 1731,
+    "bytes": 146944,
+    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoLAA4AAwBSJZwAApyvAGaAAAD+0pT8Eek73TlyY3nK09jd9/hkax7qxe0Xg/gP+AyjBOZh4W2CND+8z5gr73GM6DXpbQ6XJdAJHBoAAAA=",
+    "source_2gis": "photos/10.jpg"
+  },
+  "cctv-feed": {
+    "src": "/media/cctv-feed.webp",
+    "width": 1300,
+    "height": 1607,
+    "bytes": 105220,
+    "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoLAA4AAwBSJZQAAtx5Ut/CAAD++cK+gdW+yd6/J3BeOE4morNCxajIqRdBzSqk6bSkQt4T15AAAA==",
+    "source_2gis": "photos/14.jpg"
+  },
+  "sign-black": {
+    "src": "/media/sign-black.webp",
+    "width": 1400,
+    "height": 1731,
+    "bytes": 96332,
+    "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoLAA4AAwBSJYwCdAEJFabgAAD9rQGyBdtvovvCL3AumseN9HVdUVWwGgZM6EQy/yVzwGouAsm4dv0AAAA=",
+    "source_2gis": "photos/16.jpg"
+  },
+  "screen-glow": {
+    "src": "/media/screen-glow.webp",
+    "width": 1100,
+    "height": 1814,
+    "bytes": 49168,
+    "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoIAA4AAwBSJQAAXPC33ANcAAD+9uL59YyfV5HqFtgBBto/b73HoC+s5Atyplv4mZPn8VAA",
+    "source_2gis": "photos/06.jpg"
+  },
+  "entrance": {
+    "src": "/media/entrance.webp",
+    "width": 1400,
+    "height": 972,
+    "bytes": 187934,
+    "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoOAAoAAwBSJZQAAdLcy2K4AP7xhdu9P9cJsVxk8UJlH7mWfama9J7YldKEATyNoACTHMj72T4rw9UGizUbAgAA",
+    "source_2gis": "photos/17.jpg"
+  },
+  "door": {
+    "src": "/media/door.webp",
+    "width": 960,
+    "height": 1185,
+    "bytes": 52330,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAABQAgCdASoLAA4AAwBSJZQCdAECvx9AiRehCAAA/tGh1mVfWMhu8G0tmE9K6Gh9o2mOFYXG1npOjR2fu2uaPVscjI0aBBXmguAAAA==",
+    "source_2gis": "photos/12.jpg"
+  }
+}
